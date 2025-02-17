@@ -23,7 +23,8 @@ const UpcomingEvent = () => {
               <div className="card-content">
                 <h2 className="card-title">{card.title}</h2>
                 <p className="card-description">{card.description}</p>
-                <button className="card-button">{card.buttonText}</button>
+                {/* <button className="card-button">{card.buttonText}</button> */}
+                <button className="card-button">Play Now</button>
               </div>
             </div>
           ))}

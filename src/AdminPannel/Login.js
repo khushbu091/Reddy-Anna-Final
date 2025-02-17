@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "../AdminPannel/Styles.css";
 import { login } from "../http/api";
+import axios from "axios";
 
 const Login = () => {
   const [username, setUsername] = useState("");
@@ -12,7 +13,20 @@ const Login = () => {
     e.preventDefault();
 
     try {
-      const response = await login({ username, password });
+      const response = await axios.post(
+        "/login",
+        {
+          // Using relative URL
+          username,
+          password,
+        },
+        {
+          baseURL: `${process.env.REACT_APP_BASE_URL}`, // Setting base URL
+          headers: {
+            "Content-Type": "application/json", // Explicitly setting content type
+          },
+        }
+      );
 
       if (response.data.token) {
         localStorage.setItem("token", response.data.token);
