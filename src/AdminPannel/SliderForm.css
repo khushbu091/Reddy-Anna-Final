@@ -1,18 +1,12 @@
 .slider-container {
   width: 60%;
-  /* Slightly wider for better image display */
   margin: 20px auto;
-  /* Added margin for spacing */
   text-align: center;
   border: 1px solid #ddd;
-  /* Subtle border */
   padding: 20px;
   border-radius: 8px;
-  /* Rounded corners */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  /* Subtle shadow */
   background-color: #f9f9f9;
-  /* Light background */
 }
 
 .slider-title {

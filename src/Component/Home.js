@@ -6,14 +6,6 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-// Ensure styles are properly applied
-// import Slider from 'react-slick';
-
-// import ss1 from "../Image/up1.jpg";
-// import s2 from "../Image/up2.avif";
-// import s3 from "../Image/b8.avif";
-// import s4 from "../Image/b1.jpg";
-// import s5 from "../Image/b6.jpg";
 
 import home_img from "../Image/homeImg.png";
 import logoImg from "../Image/reddy-anna-logo.png";

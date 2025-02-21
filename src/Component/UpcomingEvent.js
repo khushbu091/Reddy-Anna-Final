@@ -9,7 +9,6 @@ const UpcomingEvent = () => {
   return (
     <div className="container">
       <div className="user-dashboard">
-        <h1 className="home-title">User Dashboard</h1>
         <div className="card-container">
           {cards.map((card) => (
             <div key={card.id} className="custom-card">
