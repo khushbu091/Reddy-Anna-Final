@@ -71,7 +71,7 @@ const Home = () => {
             <p className="description">
               Reddy Anna Book is India’s most trusted platform for online
               cricket betting. Over
-              <span className="bold"> 55K+ users </span> have already joined us
+              <span className="bold"> 55Lakh+ users </span> have already joined us
               and are enjoying a secure, seamless betting experience. With
               features like
               <span className="bold"> 24-hour withdrawals</span>,
@@ -88,9 +88,9 @@ const Home = () => {
 
             {/* Buttons */}
             <div className="button-container">
-              <button className="btn">Reddy Anna Login</button>
-              <button className="btn">Reddy Anna App</button>
-              <button className="btn">Reddy Anna Join</button>
+              <button className="btn"><a href="https://wa.me/447878632078">Reddy Anna Login</a></button>
+              <button className="btn"><a href="https://wa.me/447878632078">Reddy Anna App</a></button>
+              <button className="btn"><a href="https://wa.me/447878632078">Reddy Anna Join</a></button>
             </div>
           </div>
         </div>
@@ -109,7 +109,7 @@ const Home = () => {
             <ol className="steps">
               <li>
                 <span className="bold">Visit:</span> Head to{" "}
-                <a href="#" className="link">
+                <a href="https://wa.me/447878632078">
                   Reddy Anna Book
                 </a>
                 .
@@ -126,7 +126,7 @@ const Home = () => {
             <p className="sec-description">
               With Reddy Anna, you can start betting right away!
             </p>
-            <button className="btn">Download</button>
+            <button className="btn"> <a href="https://wa.me/447878632078">Download</a></button>
           </div>
         </div>
         {/* ------------------------------ third section ------------------------- */}
@@ -162,7 +162,7 @@ const Home = () => {
                   instantly in your account.
                 </li>
               </ul>
-              <button className="btn">Reddy Anna Book</button>
+              <button className="btn"><a href="https://wa.me/447878632078">Reddy Anna Book</a></button>
             </div>
             <div className="home-card">
               <h2>How to Withdraw Cash From Reddy Anna?</h2>
@@ -171,7 +171,7 @@ const Home = () => {
               </p>
               <ol>
                 <li>
-                  <a href="#">Log in</a> to your account.
+                <a href="https://wa.me/447878632078">Log in</a> to your account.
                 </li>
                 <li>Enter the amount you want to withdraw.</li>
                 <li>Confirm the transaction.</li>
@@ -180,7 +180,7 @@ const Home = () => {
                 <strong>24-hour withdrawals</strong> ensure you always have
                 access to your winnings—unlimited and on your terms!
               </p>
-              <button className="btn">Reddy Anna Download</button>
+              <button className="btn"><a href="https://wa.me/447878632078">Reddy Anna Download</a></button>
             </div>
           </div>
         </div>
@@ -230,7 +230,7 @@ const Home = () => {
                   </p>
                   <ul>
                     <li>
-                      Visit our homepage at <a href="#">Reddy Anna Book</a>.
+                      Visit our homepage at <a href="https://wa.me/447878632078">Reddy Anna Book</a>.
                     </li>
                     <li>
                       Click on the <strong>“Join Now”</strong> button.
@@ -326,7 +326,7 @@ const Home = () => {
             We are here to ensure your betting journey is smooth, safe, and
             enjoyable.
           </p>
-          <button className="btn">Download</button>
+          <button className="btn"><a href="https://wa.me/447878632078">Download</a></button>
         </div>
         {/* ---------------------------- testimonial part ----------------------------------- */}
         <div className="testimonials-container">

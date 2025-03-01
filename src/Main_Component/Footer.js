@@ -29,13 +29,13 @@ const Footer = () => {
     <footer className="footer">
       {/* Social Media Links */}
       <div className="social-icons">
-        <a href="https://wa.me/" target="_blank" rel="noopener noreferrer">
+        <a href="https://wa.me/447878632078" target="_blank" rel="noopener noreferrer">
           <img src={wtsp} alt="WhatsApp" />
         </a>
         <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
           <img src={instagram} alt="Instagram" />
         </a>
-        <a href="https://t.me/" target="_blank" rel="noopener noreferrer">
+        <a href="https://t.me/Reddyannabookofficail" target="_blank" rel="noopener noreferrer">
           <img src={teligram} alt="Telegram" />
         </a>
         <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">

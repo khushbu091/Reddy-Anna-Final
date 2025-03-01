@@ -28,7 +28,7 @@ const Navbar = () => {
       </ul>
 
       {/* Login Button */}
-      <button className="login-btn">Login</button>
+      <button className="login-btn"><a href="https://wa.me/447878632078">Login</a></button>
 
       {/* Mobile Menu Toggle */}
       <div className="menu-icon" onClick={() => setMenuOpen(!menuOpen)}>
